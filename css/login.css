@@ -1,0 +1,48 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("../webfonts/Montserrat-Regular.woff");
+}
+
+@font-face {
+  font-family: Montserrat_Bold;
+  src: url("../webfonts/Montserrat-ExtraBold.woff");
+}
+
+body {
+  font-family: Montserrat, Arial;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+    background-image: url(../image/background.svg);
+    height: 100vh;
+}
+
+#titleWrap,
+#loginWrap,
+#copyrightWrap {
+  display: flex;
+  justify-content: center;
+}
+
+#title,
+#login,
+#copyright {
+  width: 400px;
+}
+
+.button {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  background-color: #ff0024;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
